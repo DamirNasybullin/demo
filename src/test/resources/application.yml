@@ -2,5 +2,4 @@ spring:
   data:
     mongodb:
       database: dsports
-      username: mongouser
-      password: mongodb
+

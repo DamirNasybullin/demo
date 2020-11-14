@@ -20,8 +20,9 @@ public class BookService {
         return bookRepository.save(book);
     }
 
-    public List<Book> findByAuthor(String author) {
-        return bookRepository.findByAuthor(author);
+    public List<Book> findByAuthor(String author) {return bookRepository.findByAuthor(author);
+    }
+    public List<Book> findByAuthorAndName (String author, String name) {return bookRepository.findByAuthorAndName(author,name);
     }
 
 }
